@@ -8,6 +8,7 @@ const { config: tsconfig } = ts.readConfigFile(
   './tsconfig.json',
   ts.sys.readFile,
 );
+//verifier git
 const paths = tsconfig?.compilerOptions?.paths ?? {};
 
 const config: Config = {
